@@ -8,6 +8,8 @@ gem "rails", "~> 7.0.4"
 
 gem "rake", "~> 13.0"
 
+gem "spring"
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -65,7 +67,6 @@ group :development do
   # gem "rack-mini-profiler"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
 end
 
 group :test do
