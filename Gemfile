@@ -19,9 +19,9 @@ gem "bootsnap", require: false
 gem "debug", platforms: %i[ mri mingw x64_mingw ]
 #end
 
-#group :development do
+group :development do
 gem "web-console"
-#end
+end
 
 #group :test do
   gem "capybara"
