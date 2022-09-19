@@ -5,7 +5,7 @@ gem "rails", "~> 7.0.4"
 gem "rake", "~> 13.0"
 gem "spring"
 gem "sprockets-rails"
-gem "sqlite3", "~> 1.4"
+gem 'pg'
 gem "ruby-vips"
 gem "puma", "~> 5.0"
 gem "importmap-rails"
